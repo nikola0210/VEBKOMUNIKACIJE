@@ -1,0 +1,111 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #ff7733;
+}
+.jumbotron-header{
+	background: url("symptoms-of-coronavirus-1.jpg") center fixed;
+	background-size: cover;
+	height: calc(100vh);
+	border-radius: 0;
+}
+.navFix{
+	position: fixed;
+	top: 0;
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+.navFix{
+	background-color: black !important;
+	height: auto;
+}
+.navbar-hamburger{
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.navbar-hamburger:hover{
+	text-decoration: none;
+	color: white;
+}
+.a-link{
+	color: white;
+	font-size: 18px;
+	line-height: 2.278;
+}
+.nav-link:hover{
+	color: white;
+}
+.okvir{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4vh;
+    width: 50%;
+	height: 50%;
+	padding: 15% 15%;
+	text-align: center;
+}
+.naslov{
+	color: white;
+	padding: 5%;
+}
+.button{
+	color: white;
+	border: 2px solid white;
+	border-radius: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration: none !important;
+}
+.button:hover
+{
+	color: black;
+	background-color: red;
+	text-decoration: none !important;
+}
+.btn {text-decoration: none;}
+#obavestenje{
+	background: darkorange;
+	font-weight: bold;
+	color: black;
+}
+.obavestenje{
+	position: relative;
+	top: 200px;
+	text-align: center;
+}
+.zuta-klasa{
+	background: yellow;
+	color: black;
+	font-size: 50px;
+}
+.pomeri{
+	position: relative;
+	top: 50px;
+}
+.my-footer{
+	text-align: center;
+	font-weight: bold;
+	font-size: 10px;
+}
+.virus{
+	font-style: italic;
+	font-weight: bold;
+}
+.podnaslov{
+	font-style: italic;
+	font-weight: bold;
+}
+.virus2{
+	font-style: oblique;
+	font-weight:normal;
+}
+.virus3{
+	font-style: normal;
+	font-weight: 200;
+}
